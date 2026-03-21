@@ -18,7 +18,7 @@ export default function ResultItems(props) {
         <CardGroup>
             { results && results.hits && results.hits.map(item => (
                 <Col lg={ 3 } sm={ 6 } className='mb-3' key={ item.objectID }>
-                    <Card>
+                    <Card className='m-2'>
                         <CardImg top width="100%" src={ item.image } alt={ item.description } />
                         <CardBody>
                             <CardTitle className='text-center'>{ item.name }</CardTitle>

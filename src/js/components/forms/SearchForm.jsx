@@ -22,13 +22,13 @@ export default class SearchForm extends React.Component {
     }
 
     /**
-     * Get products by search query with debounce od 200ms
+     * Get products by search query with debouncing od 200ms
      * @param inputValue
      */
     onInputChange = (inputValue) => {
         const { getProducts, abortController, waitTime } = this.props;
 
-        // If http request is pending, cancel it
+        // If an http request is pending, cancel it
         if (abortController) {
             abortController.abort();
         }

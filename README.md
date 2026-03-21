@@ -1,17 +1,17 @@
 # Homework for PT
 
-Main tasks for this projects:
+Main tasks for this project:
 - Search for products by search query from an API
-- Show all search results from an API using next information:
+- Show all search results from an API using the next information:
     - Product title
     - Product image
-- Create a custom debouncing (wait for 200ms before sending request)
-- Reset time counter if search query has been changed
-- If user changes search query while request is pending, cancel HTTP request
+- Create a custom debouncing (wait for 200 ms before sending request)
+- Reset time counter if a search query has been changed
+- If a user changes a search query while the request is pending, cancel the HTTP request
 
 **Written by**: Nemanja Madžovski
 
-**Date**: 10.05.2020
+**Date**: 10.05.2020.
 
 **Time**: ~5 hours
 
